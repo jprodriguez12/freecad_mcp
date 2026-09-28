@@ -1,10 +1,10 @@
 from typing import Any, Dict
 import socket
 import json
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 # Initialize FastMCP server
-mcp = FastMCP("freecad-bridge")
+mcp = MCPServer("freecad-bridge")
 
 # Constants
 FREECAD_HOST = 'localhost'
